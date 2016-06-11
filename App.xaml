@@ -1,0 +1,16 @@
+﻿<Application x:Class="MMAWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            StartupUri="MainWindow.xaml">
+    <!--StartupUri="MainWindow.xaml"-->
+    <!--Translation.xaml-->
+    <!--文档编辑模块\DocumentEditor.xaml-->
+    <!--文档编辑模块\InsertPicture.xaml-->
+    <!--文档编辑模块\InsertFormula.xaml-->
+    <!--Translation.xaml-->
+    <!--MathModeling.xaml-->
+    <!--SetTime.xaml-->
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
