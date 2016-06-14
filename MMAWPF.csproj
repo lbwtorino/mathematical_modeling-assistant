@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE6C3EAC-A9DA-4C36-8CA0-0AEE8AB113E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MMAWPF</RootNamespace>
+    <AssemblyName>MMAWPF</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\MMAWPF.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;F:\visual studio 2010\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;F:\visual studio 2010\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\MMAWPF.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;F:\visual studio 2010\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;F:\visual studio 2010\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CaptureImageTool">
+      <HintPath>bin\Release\dllfile\CaptureImageTool.dll</HintPath>
+    </Reference>
+    <Reference Include="GifImageLib">
+      <HintPath>bin\Release\dllfile\GifImageLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MathMLControl">
+      <HintPath>bin\Release\dllfile\MathMLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Release\dllfile\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="数据库\AES.cs" />
+    <Compile Include="算法模块\Algorithm.xaml.cs">
+      <DependentUpon>Algorithm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CursorManager.cs" />
+    <Compile Include="数据库\DatabaseClass.cs" />
+    <Compile Include="数据库\DisposeClose.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="matlab模块\MathModeling.xaml.cs">
+      <DependentUpon>MathModeling.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="matlab模块\SetTime.xaml.cs">
+      <DependentUpon>SetTime.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="翻译模块\Translation.xaml.cs">
+      <DependentUpon>Translation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="文档编辑模块\DocAddress.cs" />
+    <Compile Include="文档编辑模块\DocumentEditor.xaml.cs">
+      <DependentUpon>DocumentEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="文档编辑模块\Formula.cs" />
+    <Compile Include="文档编辑模块\InsertFormula.xaml.cs">
+      <DependentUpon>InsertFormula.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="文档编辑模块\InsertPicture.xaml.cs">
+      <DependentUpon>InsertPicture.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="文档编辑模块\InsertTable.xaml.cs">
+      <DependentUpon>InsertTable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="文档编辑模块\IsEditing.cs" />
+    <Compile Include="文档编辑模块\LoadToWord.cs" />
+    <Compile Include="文档编辑模块\NameForm.xaml.cs">
+      <DependentUpon>NameForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="文档编辑模块\Picture.cs" />
+    <Compile Include="文档编辑模块\SaveTitle.cs" />
+    <Compile Include="文档编辑模块\Table.cs" />
+    <Compile Include="登录模块\Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="登录模块\UserLogIn.cs" />
+    <Page Include="算法模块\Algorithm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="matlab模块\MathModeling.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="matlab模块\SetTime.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="翻译模块\Translation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="文档编辑模块\DocumentEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="文档编辑模块\InsertFormula.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="文档编辑模块\InsertPicture.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="文档编辑模块\InsertTable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="文档编辑模块\NameForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="登录模块\ForgetPWD.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="登录模块\LogIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="登录模块\ForgetPWD.xaml.cs">
+      <DependentUpon>ForgetPWD.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="登录模块\LogIn.xaml.cs">
+      <DependentUpon>LogIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="登录模块\Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\GidenV4a\GIDEN.bat" />
+    <None Include="bin\Debug\GidenV4a\match.gdn" />
+    <None Include="bin\Debug\GidenV4a\s1.gdn" />
+    <None Include="bin\Debug\GidenV4a\sample.gdn" />
+    <None Include="bin\Debug\GidenV4a\SPT.gdn" />
+    <None Include="bin\Debug\GidenV4a\ss.gdn" />
+    <None Include="bin\Debug\GidenV4a\sss.csv" />
+    <None Include="bin\Debug\MMAWPF.vshost.exe.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\wordimage\blank.gif" />
+    <Resource Include="bin\Debug\images\samllbg.jpg" />
+    <Resource Include="bin\Debug\images\denglujiemian.jpg" />
+    <Resource Include="bin\Debug\images\leftdown.gif" />
+    <Resource Include="bin\Debug\images\leftup.gif" />
+    <Resource Include="bin\Debug\images\rightdown.gif" />
+    <Resource Include="bin\Debug\images\rightup.gif" />
+    <Resource Include="bin\Debug\images\denglu.jpg" />
+    <Resource Include="bin\Debug\images\zhuce.jpg" />
+    <Resource Include="bin\Debug\images\zhuxiao.jpg" />
+    <Resource Include="bin\Debug\images\mma_big.ico" />
+    <Resource Include="bin\Debug\images\mma_small.ico" />
+    <Resource Include="bin\Debug\images\bkg.jpg" />
+    <Resource Include="bin\Debug\images\colorpic.gif" />
+    <Resource Include="bin\Debug\images\leftdown_bottom.gif" />
+    <Resource Include="bin\Debug\images\leftup_bottom.gif" />
+    <Resource Include="bin\Debug\images\rightdown_bottom.gif" />
+    <Resource Include="bin\Debug\images\rightup_bottom.gif" />
+    <Resource Include="bin\Debug\images\round.gif" />
+    <Resource Include="bin\Debug\images\buttonbackground.jpg" />
+    <Resource Include="bin\Debug\images\dengluafter.jpg" />
+    <Resource Include="bin\Debug\images\bkg2.jpg" />
+    <Resource Include="bin\Debug\images\documenteditorbkg.jpg" />
+    <Resource Include="bin\Debug\images\documenteditorbkg_bottom.jpg" />
+    <Resource Include="bin\Debug\images\documenteditorbkg_top.jpg" />
+    <Resource Include="bin\Debug\images\clock.jpg" />
+    <Resource Include="bin\Debug\images\documenteditorbkg_left.jpg" />
+    <Resource Include="bin\Debug\images\documenteditorbkg_right.jpg" />
+    <Resource Include="bin\Debug\images\formula.jpg" />
+    <Resource Include="bin\Debug\images\pic.jpg" />
+    <Resource Include="bin\Debug\images\table.jpg" />
+    <Resource Include="bin\Debug\images\word.gif" />
+    <Resource Include="bin\Debug\images\formula_dynamic.gif" />
+    <Resource Include="bin\Debug\images\pic_dynamic.gif" />
+    <Resource Include="bin\Debug\images\table_dynamic.gif" />
+    <Content Include="bin\Debug\GidenV4a\GIDEN.exe" />
+    <Content Include="bin\Debug\GidenV4a\GidenMain.jar" />
+    <Content Include="bin\Debug\GidenV4a\GidenUser.jar" />
+    <Resource Include="bin\Debug\GidenV4a\Readme.txt" />
+    <Resource Include="bin\Debug\images\time.gif" />
+    <Resource Include="bin\Debug\images\toolpic.gif" />
+    <Content Include="bin\Debug\MMAWPF.vshost.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
