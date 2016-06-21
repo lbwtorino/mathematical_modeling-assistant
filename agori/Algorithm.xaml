@@ -1,0 +1,40 @@
+﻿<Window x:Class="MMAWPF.Algorithm"
+        xmlns:wfi ="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+        xmlns:wf ="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="算法介绍" Height="600" Width="800" Name="algorithm_introduction" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Closing="algorithm_introduction_Closing" Closed="algorithm_introduction_Closed" Icon="/MMAWPF;component/bin/Debug/images/mma_big.ico">
+    <Window.Background>
+        <ImageBrush ImageSource="/MMAWPF;component/bin/Debug/images/bkg2.jpg" />
+    </Window.Background>
+    <Grid Width="783">
+        <Grid Height="445" HorizontalAlignment="Left" Margin="0,57,0,0" Name="grid1" VerticalAlignment="Top" Width="785" ShowGridLines="False" Panel.ZIndex="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="217*" MinWidth="100" MaxWidth="300" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="563*" />                
+            </Grid.ColumnDefinitions>
+            
+            <TreeView Height="445" HorizontalAlignment="Stretch" Name="treeView" VerticalAlignment="Stretch" Grid.RowSpan="3" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Padding="0" MouseDoubleClick="treeView_MouseDoubleClick">
+                <TreeViewItem Header="算法" Name="algorithm">
+                    <TreeViewItem Header="算法介绍">
+                        <TreeViewItem Header="Dijkstra" />
+                        <TreeViewItem Header="Floyd" />
+                        <TreeViewItem Header="概率算法" />
+                        <TreeViewItem Header="灰色预测" />
+                        <TreeViewItem Header="模拟退火算法" />
+                        <TreeViewItem Header="搜索算法" />
+                        <TreeViewItem Header="贪心算法" />
+                        <TreeViewItem Header="遗传算法" />
+                        <TreeViewItem Header="免疫算法" />
+                    </TreeViewItem>
+                </TreeViewItem>
+            </TreeView>
+            <GridSplitter Grid.Column="1" Grid.RowSpan="3" HorizontalAlignment="Stretch" Name="gridSplitter1" VerticalAlignment="Stretch" Width="5" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" />
+            <WindowsFormsHost Grid.Column="2" Margin="0,34,0,0">
+                <wf:RichTextBox x:Name="contentTextBox" Dock="Fill"  AcceptsTab="True" />
+            </WindowsFormsHost>
+            <Label Content="当前算法:" Grid.Column="1" Height="32" HorizontalAlignment="Left" Margin="4,0,0,0" Name="label" VerticalAlignment="Top" FontSize="16" FontFamily="Microsoft YaHei" Grid.ColumnSpan="2" />
+        </Grid>
+    </Grid>
+</Window>
