@@ -1,0 +1,18 @@
+v:2.0a,Thu 04 Aug 2011 18:09:38 GMT-05:00
+graph:4,5,directed
+node:id=1,x=114,y=149
+node:id=2,x=187,y=57
+node:id=3,x=221,y=199
+node:id=4,x=318,y=86
+edge:id=1,e1=1,e2=2,lp=1,spline=false
+edge:id=2,e1=1,e2=3,lp=1,spline=false
+edge:id=3,e1=3,e2=4,lp=1,spline=false
+edge:id=4,e1=3,e2=2,lp=1,spline=false
+edge:id=5,e1=2,e2=4,lp=1,spline=false
+node data labels:0
+edge data labels:1,c,i
+edge data values:1,2
+edge data values:2,4
+edge data values:3,2
+edge data values:4,2
+edge data values:5,3

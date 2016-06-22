@@ -1,0 +1,30 @@
+v:2.0a,Tue 02 Aug 2011 19:36:39 GMT-05:00
+graph:6,10,directed
+node:id=1,x=48,y=145
+node:id=2,x=156,y=50
+node:id=3,x=158,y=234
+node:id=4,x=315,y=48
+node:id=5,x=320,y=239
+node:id=6,x=461,y=142
+edge:id=1,e1=1,e2=2,lp=1,spline=false
+edge:id=2,e1=1,e2=3,lp=1,spline=false
+edge:id=3,e1=2,e2=4,lp=1,spline=false
+edge:id=4,e1=2,e2=5,lp=1,spline=true,x=213,y=155
+edge:id=5,e1=3,e2=5,lp=1,spline=false
+edge:id=6,e1=3,e2=4,lp=1,spline=true,x=253,y=156
+edge:id=7,e1=5,e2=6,lp=1,spline=false
+edge:id=8,e1=4,e2=5,lp=1,spline=false
+edge:id=9,e1=4,e2=6,lp=1,spline=false
+edge:id=10,e1=3,e2=2,lp=1,spline=false
+node data labels:0
+edge data labels:1,u,i
+edge data values:1,3
+edge data values:2,4
+edge data values:3,5
+edge data values:4,1
+edge data values:5,2
+edge data values:6,1
+edge data values:7,6
+edge data values:8,3
+edge data values:9,1
+edge data values:10,2
