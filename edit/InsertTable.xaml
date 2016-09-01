@@ -1,0 +1,38 @@
+﻿<Window x:Class="MMAWPF.文档编辑模块.InsertTable"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:wfi ="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+        xmlns:wf ="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="InsertTable" Height="375" Width="500" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" xmlns:my="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" Icon="/MMAWPF;component/bin/Debug/images/mma_big.ico" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Window.Background>
+        <ImageBrush ImageSource="/MMAWPF;component/bin/Debug/images/samllbg.jpg" />
+    </Window.Background>
+    <Grid>
+        <Label Content="表名(若为空则使用默认名)" FontSize="16" Height="38" HorizontalAlignment="Left" Margin="52,70,0,0" Name="label3" VerticalAlignment="Top" />
+        <TextBox Height="30" HorizontalAlignment="Left" Margin="53,105,0,0" Name="tableTitleTxt" Panel.ZIndex="4" VerticalAlignment="Top" Width="357" />
+        <Button BorderBrush="#FFA6E3FB" Content="插入" FontSize="14" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="239,234,0,0" Name="OKBtn" Panel.ZIndex="4" VerticalAlignment="Top" Width="75" Click="OKBtn_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="#FF9CE0FA" Offset="0.77" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="列数" FontSize="16" Height="36" HorizontalAlignment="Right" Margin="0,167,215,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="行数" FontSize="16" Height="37" HorizontalAlignment="Left" Margin="54,167,0,0" Name="label4" VerticalAlignment="Top" />
+        <WindowsFormsHost Height="25" Margin="102,170,0,141" Panel.ZIndex="4" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <my:NumericUpDown x:Name="colNum" Maximum="1000" Minimum="1" />
+        </WindowsFormsHost>
+        <WindowsFormsHost Height="25" HorizontalAlignment="Right" Margin="0,170,112,141" Panel.ZIndex="4" Width="100" VerticalAlignment="Center">
+            <my:NumericUpDown x:Name="rowNum" Maximum="1000" Minimum="1" />
+        </WindowsFormsHost>
+        <Button BorderBrush="#FFA6E3FB" Content="取消" FontSize="14" FontWeight="Normal" Height="23" HorizontalAlignment="Left" Margin="335,234,0,0" Name="CancelBtn" Panel.ZIndex="4" VerticalAlignment="Top" Width="75" Click="CancelBtn_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="#FF9CE0FA" Offset="0.77" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
