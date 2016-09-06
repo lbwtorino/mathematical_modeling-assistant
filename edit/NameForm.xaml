@@ -1,0 +1,17 @@
+﻿<Window x:Class="MMAWPF.文档编辑模块.NameForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="输入论文标题" Height="175" Width="512" ResizeMode="NoResize">
+    <Grid>
+        <Image Height="60" HorizontalAlignment="Stretch" Margin="0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="Auto" Source="/MMAWPF;component/bin/Debug/images/documenteditorbkg_top.jpg" />
+        <Button Content="确认" Height="23" HorizontalAlignment="Right" Margin="0,84,21,0" Name="OKBtn" VerticalAlignment="Top" Width="75" BorderBrush="#FF00B0F1" Click="OKBtn_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE8F8FE" Offset="1" />
+                    <GradientStop Color="White" Offset="0" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="20,84,0,0" Name="titleTxt" VerticalAlignment="Top" Width="349" Background="#1700B0F1" BorderBrush="#FF00B0F1" />
+    </Grid>
+</Window>
