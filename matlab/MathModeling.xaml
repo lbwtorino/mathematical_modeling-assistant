@@ -1,0 +1,123 @@
+﻿<Window x:Class="MMAWPF.MathModeling"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="数模版块" Height="600" Width="800" Closing="Window_Closing" Closed="Window_Closed" WindowStartupLocation="CenterScreen" Icon="/MMAWPF;component/bin/Debug/images/mma_big.ico" ResizeMode="CanMinimize" Loaded="Window_Loaded">
+    <Window.Background>
+        <ImageBrush ImageSource="/MMAWPF;component/bin/Debug/images/bkg.jpg" />
+    </Window.Background>
+    <Grid>
+        <Grid HorizontalAlignment="Stretch" Margin="0,55,0,60" Name="grid1" VerticalAlignment="Stretch" Width="778">
+            <TabControl HorizontalAlignment="Stretch" Name="tabcontrol" VerticalAlignment="Stretch" Width="Auto" BorderBrush="Yellow" TabStripPlacement="Left" Margin="0,3,0,0">
+                <TabControl.Background>
+                    <SolidColorBrush />
+                </TabControl.Background>
+                <TabItem Header="倒计时" Name="tabItem1" BorderBrush="Yellow" Cursor="Hand" FontSize="15" FontWeight="Bold">
+                    <TabItem.Background>
+                        <SolidColorBrush />
+                    </TabItem.Background>
+                    <Grid>
+                        <Image Height="420" HorizontalAlignment="Center" Margin="46,6,116,6" Name="image1" Stretch="Fill" VerticalAlignment="Center" Width="532" Source="/MMAWPF;component/bin/Debug/images/time.gif" />
+                        <Button BorderBrush="#FF00B0F1" Content="设置时间" Height="31" HorizontalAlignment="Right" Margin="0,302,18,100" Name="setBtn" Panel.ZIndex="6" VerticalAlignment="Center" Width="75" Click="setBtn_Click">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF00B0F1" Offset="0" />
+                                    <GradientStop Color="White" Offset="0.058" />
+                                    <GradientStop Color="#FF7FD7F8" Offset="1" />
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Button BorderBrush="#FF00B0F1" Content="暂停计时" Height="31" HorizontalAlignment="Right" Margin="0,349,18,53" Name="stopBtn" Panel.ZIndex="6" VerticalAlignment="Center" Width="75" Click="stopBtn_Click">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF00B0F1" Offset="0" />
+                                    <GradientStop Color="White" Offset="0.058" />
+                                    <GradientStop Color="#FF7FD7F8" Offset="1" />
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Button BorderBrush="#FF00B0F1" Content="继续计时" Height="31" HorizontalAlignment="Right" Margin="0,395,18,7" Name="startBtn" Panel.ZIndex="6" VerticalAlignment="Center" Width="75" Click="startBtn_Click">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF00B0F1" Offset="0" />
+                                    <GradientStop Color="White" Offset="0.058" />
+                                    <GradientStop Color="#FF7FD7F8" Offset="1" />
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <Label Content="00" Height="39" HorizontalAlignment="Center" Margin="191,0,443,169" Name="daytxt" VerticalAlignment="Bottom" FontSize="26" FontWeight="Bold" Width="44" />
+                        <Label Content="00" Height="39" HorizontalAlignment="Center" Margin="275,0,355,169" Name="hourtxt" VerticalAlignment="Bottom" FontSize="26" FontWeight="Bold" Width="49" />
+                        <Label Content="00" Height="39" HorizontalAlignment="Center" Margin="358,0,277,169" Name="minutetxt" VerticalAlignment="Bottom" FontSize="26" FontWeight="Bold" Width="44" />
+                        <Label Content="00" Height="39" HorizontalAlignment="Center" Margin="438,0,197,169" Name="secondtxt" VerticalAlignment="Bottom" FontSize="26" FontWeight="Bold" Width="43" />
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Matlab" BorderBrush="Yellow" Cursor="Hand" FontSize="15" FontWeight="Bold">
+                    <TabItem.Background>
+                        <SolidColorBrush />
+                    </TabItem.Background>
+                    <Grid Name="grid2" Width="Auto">
+                        <Expander Height="157" HorizontalAlignment="Right" Margin="0,135,6,141" Name="toolexpander" VerticalAlignment="Center" ExpandDirection="Left" FontSize="14" Width="181">
+                            <Grid>
+                                <Border BorderBrush="Yellow" BorderThickness="2" Height="Auto" HorizontalAlignment="Stretch" Margin="0" Name="border1" VerticalAlignment="Stretch" Width="Auto">
+                                    <Grid Height="Auto" Name="grid3" Width="138" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                        <Button BorderBrush="#FF00B0F1" Content="截图" Height="25" HorizontalAlignment="Center" Margin="13,0,10,24" Name="capture" Panel.ZIndex="6" VerticalAlignment="Bottom" Width="115" Click="capture_Click">
+                                            <Button.Background>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="#FF00B0F1" Offset="0" />
+                                                    <GradientStop Color="White" Offset="0.058" />
+                                                    <GradientStop Color="#FF7FD7F8" Offset="1" />
+                                                </LinearGradientBrush>
+                                            </Button.Background>
+                                        </Button>
+                                        <Button BorderBrush="#FF00B0F1" Content="网络计算" Height="25" HorizontalAlignment="Center" Margin="13,0,10,63" Name="test" Panel.ZIndex="6" VerticalAlignment="Bottom" Width="115" Click="test_Click">
+                                            <Button.Background>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="#FF00B0F1" Offset="0" />
+                                                    <GradientStop Color="White" Offset="0.058" />
+                                                    <GradientStop Color="#FF7FD7F8" Offset="1" />
+                                                </LinearGradientBrush>
+                                            </Button.Background>
+                                        </Button>
+                                        <Button BorderBrush="#FF00B0F1" Content="matlab平台" Height="25" HorizontalAlignment="Center" Margin="13,0,10,105" Name="matlabBtn" Panel.ZIndex="6" VerticalAlignment="Bottom" Width="115" Click="matlabBtn_Click">
+                                            <Button.Background>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="#FF00B0F1" Offset="0" />
+                                                    <GradientStop Color="White" Offset="0.058" />
+                                                    <GradientStop Color="#FF7FD7F8" Offset="1" />
+                                                </LinearGradientBrush>
+                                            </Button.Background>
+                                        </Button>
+                                    </Grid>
+                                </Border>
+                            </Grid>
+                        </Expander>
+                        <Image Height="94" HorizontalAlignment="Left" Margin="593,40,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/MMAWPF;component/bin/Debug/images/toolpic.gif" />
+                        <Border BorderBrush="#FFB1E7FB" BorderThickness="3" Height="398" HorizontalAlignment="Left" Margin="6,28,0,0" Name="border2" VerticalAlignment="Top" Width="478">
+                            <Grid Name="grid4" Width="472">
+                                <Button BorderBrush="#FF00B0F1" Content="载入" Height="25" Name="loadBtn" Panel.ZIndex="6" Width="75" Click="loadBtn_Click" Margin="389,314,0,53" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                    <Button.Background>
+                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                            <GradientStop Color="#FF00B0F1" Offset="0" />
+                                            <GradientStop Color="White" Offset="0.058" />
+                                            <GradientStop Color="#FF7FD7F8" Offset="1" />
+                                        </LinearGradientBrush>
+                                    </Button.Background>
+                                </Button>
+                                <Button BorderBrush="#FF00B0F1" Content="保存" Height="25" HorizontalAlignment="Left" Margin="389,360,0,7" Name="saveBtn" Panel.ZIndex="6" VerticalAlignment="Center" Width="75" Click="saveBtn_Click">
+                                    <Button.Background>
+                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                            <GradientStop Color="#FF00B0F1" Offset="0" />
+                                            <GradientStop Color="White" Offset="0.058" />
+                                            <GradientStop Color="#FF7FD7F8" Offset="1" />
+                                        </LinearGradientBrush>
+                                    </Button.Background>
+                                </Button>
+                                <Label Content="m文件编辑区" Height="29" HorizontalAlignment="Left" Margin="6,2,0,0" Name="label1" VerticalAlignment="Top" FontSize="16" />
+                                <TextBox Height="354" HorizontalAlignment="Left" Margin="6,31,0,0" Name="mtxt" VerticalAlignment="Top" Width="376" AcceptsReturn="True" AcceptsTab="True" BorderBrush="Yellow" />
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </Grid>
+</Window>
