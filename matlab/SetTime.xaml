@@ -1,0 +1,49 @@
+﻿<Window x:Class="MMAWPF.SetTime"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="时间设置" Height="321" Width="400" ResizeMode="NoResize" Icon="/bin/Debug/images/mma_big.ico" Loaded="Window_Loaded" Closed="Window_Closed" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="/MMAWPF;component/bin/Debug/images/samllbg.jpg" />
+    </Window.Background>
+    <Grid>
+        <DatePicker Height="25" HorizontalAlignment="Left" Margin="90,93,0,0" Name="datePicker" VerticalAlignment="Top" Width="185" DisplayDate="4/19/2013" Text="比赛结束日期" />
+        <Button BorderBrush="#FF00B0F1" Content="取消" Height="22" HorizontalAlignment="Right" Margin="0,224,11,36" Name="cancelBtn" Panel.ZIndex="6" VerticalAlignment="Center" Width="75" Click="cancelBtn_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF00B0F1" Offset="0" />
+                    <GradientStop Color="White" Offset="0.058" />
+                    <GradientStop Color="#FF7FD7F8" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button BorderBrush="#FF00B0F1" Content="确定" Height="22" HorizontalAlignment="Right" Margin="0,224,103,36" Name="okBtn" Panel.ZIndex="6" VerticalAlignment="Center" Width="75" Click="okBtn_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF00B0F1" Offset="0" />
+                    <GradientStop Color="White" Offset="0.058" />
+                    <GradientStop Color="#FF7FD7F8" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="选择比赛结束日期" Height="28" HorizontalAlignment="Left" Margin="22,59,0,0" Name="label1" VerticalAlignment="Top" FontSize="14" FontFamily="黑体" />
+        <Label Content="设置比赛结束时间" Height="28" HorizontalAlignment="Left" Margin="22,132,0,0" Name="label2" VerticalAlignment="Top" FontSize="14" FontFamily="黑体" />
+        <ComboBox BorderBrush="#FF8ADBF9" Height="23" HorizontalAlignment="Center" Margin="188,0,119,89" Name="minute" VerticalAlignment="Bottom" Width="71" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="#FFAEE5FB" Offset="0" />
+                    <GradientStop Color="White" Offset="0.842" />
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Label Content="时" Height="28" HorizontalAlignment="Center" Margin="157,0,199,89" Name="label3" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" FontWeight="Bold" />
+        <Label Content="分" Height="28" HorizontalAlignment="Center" Margin="262,0,94,89" Name="label4" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" FontWeight="Bold" />
+        <ComboBox BorderBrush="#FF8ADBF9" Height="23" HorizontalAlignment="Center" Margin="84,0,223,89" Name="hour" VerticalAlignment="Bottom" Width="71" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="#FFAEE5FB" Offset="0" />
+                    <GradientStop Color="White" Offset="0.842" />
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+    </Grid>
+</Window>
