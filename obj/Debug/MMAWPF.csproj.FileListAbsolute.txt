@@ -1,0 +1,2 @@
+C:\Users\Administrator\Desktop\MMAWPF\MMAWPF\MMAWPF\bin\Debug\MMAWPF.exe.config
+C:\Users\Administrator\Desktop\MMAWPF\MMAWPF\MMAWPF\obj\Debug\MMAWPF.csproj.ResolveComReference.cache
