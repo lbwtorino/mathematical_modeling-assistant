@@ -1,0 +1,88 @@
+﻿<Window x:Class="MMAWPF.Translation"
+        xmlns:wfi ="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+        xmlns:wf ="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="文档翻译" Height="600" Width="900" WindowStartupLocation="CenterScreen" Icon="/MMAWPF;component/bin/Debug/images/mma_big.ico" Closed="Window_Closed" Closing="Window_Closing" Loaded="Window_Loaded">
+    <Grid>
+        <Image Height="60" HorizontalAlignment="Stretch" Margin="0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="Auto" Source="/MMAWPF;component/bin/Debug/images/documenteditorbkg_top.jpg" />
+        <Image Height="63" HorizontalAlignment="Stretch" Margin="0" Name="image2" Stretch="Fill" VerticalAlignment="Bottom" Width="Auto" Source="/MMAWPF;component/bin/Debug/images/documenteditorbkg_bottom.jpg" />
+        <Grid Height="Auto" HorizontalAlignment="Stretch" Margin="0,60,0,63" Name="globalgrid" VerticalAlignment="Stretch" Width="Auto">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="64" MaxHeight="64" MinHeight="64" />
+                <RowDefinition Height="5" />
+                <RowDefinition Height="326*" />
+                <RowDefinition Height="30" MaxHeight="30" MinHeight="30" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="240*" MaxWidth="300" MinWidth="50" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="330*" MinWidth="50" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="330*" MinWidth="50" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.RowSpan="4" HorizontalAlignment="Stretch" Name="leftgrid" VerticalAlignment="Stretch" Width="Auto">
+                <WindowsFormsHost >
+                    <wf:TreeView x:Name="treeView" Visible="False"  MouseDoubleClick="treeView_MouseDoubleClick">
+                    </wf:TreeView>
+                </WindowsFormsHost>
+            </Grid>
+            <GridSplitter Grid.Column="1" Grid.RowSpan="4" HorizontalAlignment="Stretch" Name="gridSplitter1" VerticalAlignment="Stretch" Width="5" Background="Yellow" />
+            <Grid Grid.Column="2" HorizontalAlignment="Stretch" Margin="0,1,0,0" Name="middlegrid" VerticalAlignment="Stretch" Width="Auto" Grid.Row="2">
+                <RichTextBox Height="Auto" HorizontalAlignment="Stretch" Margin="0" Name="chineseTxt" VerticalAlignment="Stretch" Width="Auto" />
+            </Grid>
+            <Grid Grid.Column="4" Grid.RowSpan="3" Height="Auto" HorizontalAlignment="Stretch" Margin="0" Name="rightgrid" VerticalAlignment="Stretch" Width="Auto">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120*" MinHeight="120" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="296*" MinHeight="200" />
+                </Grid.RowDefinitions>
+                <GridSplitter Grid.Row="1" Height="5" HorizontalAlignment="Stretch" Margin="0" Name="gridSplitter4" VerticalAlignment="Stretch" Width="Auto" Background="Yellow" />
+                <GroupBox Header="翻译" HorizontalAlignment="Stretch" Name="groupBox1" VerticalAlignment="Stretch" Width="Auto">
+                    <Grid>
+                        <Button BorderBrush="#FF00B0F1" Content="翻译" Height="23" HorizontalAlignment="Left" Margin="223,6,0,0" Name="translateBtn" VerticalAlignment="Top" Width="75" Click="translateBtn_Click">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF7FD7F8" Offset="1" />
+                                    <GradientStop Color="#FF00B0F1" Offset="1" />
+                                    <GradientStop Color="#FF7FD7F8" Offset="1" />
+                                    <GradientStop Color="White" Offset="0" />
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                        <TextBox BorderBrush="#FF9CE0FA" Height="23" HorizontalAlignment="Left" Margin="23,7,0,0" Name="contentTxt" VerticalAlignment="Top" Width="188" Background="#2438F4F4" />
+                        <RichTextBox HorizontalAlignment="Left" Margin="23,36,0,8" Name="resultTxt" VerticalAlignment="Stretch" Width="275" BorderBrush="#FF95DEF9" Background="#2438F4F4" />
+                    </Grid>
+                </GroupBox>
+                <RichTextBox Grid.Row="2" Height="Auto" HorizontalAlignment="Stretch" Margin="0" Name="englishTxt" VerticalAlignment="Stretch" Width="Auto" />
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="3" Height="Auto" HorizontalAlignment="Stretch" Name="bottomgrid" VerticalAlignment="Stretch" Grid.ColumnSpan="3">
+                <StatusBar Height="Auto" HorizontalAlignment="Stretch" Margin="0" Name="statusBar1" VerticalAlignment="Stretch" Width="Auto" BorderBrush="Yellow">
+                    <StatusBarItem Content="当前编辑区:" BorderBrush="Yellow" Name="status" />
+                </StatusBar>
+            </Grid>
+            <GridSplitter Grid.Column="3" Grid.RowSpan="3" Height="Auto" HorizontalAlignment="Stretch" Margin="0" Name="gridSplitter2" VerticalAlignment="Stretch" Width="5" Background="Yellow" />
+            <Grid Grid.Column="2" Height="64" HorizontalAlignment="Stretch" Margin="0" Name="topgrid" VerticalAlignment="Stretch" Width="Auto">
+                <ComboBox BorderBrush="#FF00B0F1" Height="23" HorizontalAlignment="Left" Margin="6,22,0,0" Name="docHistory" VerticalAlignment="Top" Width="183">
+                    <ComboBox.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF00B0F1" Offset="0" />
+                            <GradientStop Color="White" Offset="0.122" />
+                            <GradientStop Color="#FF7FD7F8" Offset="1" />
+                        </LinearGradientBrush>
+                    </ComboBox.Background>
+                </ComboBox>
+                <Button BorderBrush="#FF00B0F1" Content="选择载入" Height="23" HorizontalAlignment="Left" Margin="218,22,0,0" Name="selectBtn" VerticalAlignment="Top" Width="75" Click="selectBtn_Click">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF00B0F1" Offset="0" />
+                            <GradientStop Color="White" Offset="0.122" />
+                            <GradientStop Color="#FF7FD7F8" Offset="1" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </Grid>
+            <GridSplitter Grid.Column="2" Grid.Row="1" Height="5" HorizontalAlignment="Stretch" Margin="0" Name="gridSplitter3" VerticalAlignment="Stretch" Width="Auto" Background="Yellow" />
+        </Grid>
+    </Grid>
+</Window>
