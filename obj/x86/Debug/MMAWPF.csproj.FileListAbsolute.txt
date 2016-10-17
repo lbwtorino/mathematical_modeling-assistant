@@ -1,0 +1,78 @@
+F:\MMA\MMAWPF\MMAWPF\bin\Debug\MMAWPF.exe
+F:\MMA\MMAWPF\MMAWPF\bin\Debug\MMAWPF.pdb
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MainWindow.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MainWindow.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\App.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF_Content.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF_MarkupCompile.cache
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.g.resources
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.Properties.Resources.resources
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.csproj.GenerateResource.Cache
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.exe
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.pdb
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\ForgetPWD.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\LogIn.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\ForgetPWD.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\LogIn.g.cs
+F:\MMA\MMAWPF\MMAWPF\bin\Debug\MMAWPF.exe.config
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\Register.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\Register.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\DocumentEditor.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\DocumentEditor.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\Algorithm.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\Algorithm.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MathModeling.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MathModeling.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\Translation.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\Translation.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertPicture.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertPicture.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertFormula.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertTable.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertFormula.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertTable.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.csproj.ResolveComReference.cache
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\NameForm.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\NameForm.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\SetTime.baml
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\SetTime.g.cs
+F:\MMA\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.csprojResolveAssemblyReference.cache
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\bin\Debug\MMAWPF.exe.config
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.csproj.ResolveComReference.cache
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.exe
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.pdb
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\bin\Debug\MMAWPF.exe
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\bin\Debug\MMAWPF.pdb
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.csprojResolveAssemblyReference.cache
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\DocumentEditor.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertFormula.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertPicture.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertTable.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\NameForm.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\ForgetPWD.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\LogIn.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MainWindow.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\Register.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\DocumentEditor.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertFormula.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertPicture.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\InsertTable.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\文档编辑模块\NameForm.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\ForgetPWD.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\LogIn.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MainWindow.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\登录模块\Register.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\App.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF_Content.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF_MarkupCompile.cache
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.g.resources
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.Properties.Resources.resources
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\MMAWPF.csproj.GenerateResource.Cache
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\算法模块\Algorithm.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\matlab模块\MathModeling.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\matlab模块\SetTime.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\翻译模块\Translation.baml
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\算法模块\Algorithm.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\matlab模块\MathModeling.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\matlab模块\SetTime.g.cs
+F:\大学生计算机设计大赛\MMA - 备份\MMAWPF\MMAWPF\obj\x86\Debug\翻译模块\Translation.g.cs

@@ -1,0 +1,20 @@
+v:2.0a,Fri 29 Jul 2011 18:20:18 GMT-05:00
+graph:7,9,directed
+node:id=1,x=234,y=38
+node:id=2,x=177,y=109
+node:id=3,x=107,y=168
+node:id=4,x=301,y=144
+node:id=5,x=250,y=238
+node:id=6,x=407,y=234
+node:id=7,x=448,y=104
+edge:id=1,e1=1,e2=2,lp=1,spline=false
+edge:id=2,e1=2,e2=3,lp=1,spline=false
+edge:id=3,e1=2,e2=4,lp=1,spline=false
+edge:id=4,e1=4,e2=5,lp=1,spline=false
+edge:id=5,e1=5,e2=6,lp=1,spline=false
+edge:id=6,e1=6,e2=7,lp=1,spline=false
+edge:id=7,e1=5,e2=3,lp=1,spline=false
+edge:id=8,e1=7,e2=1,lp=1,spline=false
+edge:id=9,e1=4,e2=6,lp=1,spline=false
+node data labels:0
+edge data labels:0

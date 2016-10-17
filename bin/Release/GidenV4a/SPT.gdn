@@ -1,0 +1,43 @@
+v:2.0a,Fri 05 Aug 2011 15:59:09 GMT-05:00
+graph:9,15,directed
+node:id=1,x=18,y=91
+node:id=2,x=91,y=91
+node:id=3,x=167,y=91
+node:id=4,x=238,y=95
+node:id=6,x=392,y=101
+node:id=7,x=468,y=102
+node:id=8,x=539,y=104
+node:id=9,x=614,y=103
+node:id=10,x=313,y=94
+edge:id=1,e1=9,e2=8,lp=1,spline=false
+edge:id=2,e1=8,e2=7,lp=1,spline=false
+edge:id=3,e1=7,e2=6,lp=1,spline=false
+edge:id=6,e1=4,e2=3,lp=1,spline=true,x=208,y=93
+edge:id=7,e1=3,e2=2,lp=1,spline=true,x=135,y=93
+edge:id=8,e1=2,e2=1,lp=1,spline=true,x=62,y=97
+edge:id=9,e1=1,e2=3,lp=1,spline=true,x=101,y=161
+edge:id=10,e1=4,e2=7,lp=1,spline=true,x=348,y=163
+edge:id=11,e1=6,e2=9,lp=1,spline=true,x=495,y=171
+edge:id=13,e1=4,e2=9,lp=1,spline=true,x=539,y=9
+edge:id=15,e1=8,e2=9,lp=1,spline=true,x=577,y=62
+edge:id=17,e1=6,e2=10,lp=1,spline=false
+edge:id=18,e1=10,e2=4,lp=1,spline=true,x=271,y=93
+edge:id=19,e1=1,e2=10,lp=1,spline=true,x=167,y=36
+edge:id=20,e1=10,e2=8,lp=1,spline=true,x=433,y=61
+node data labels:0
+edge data labels:2,c,i,w,i
+edge data values:1,0,1
+edge data values:2,0,1
+edge data values:3,0,1
+edge data values:6,0,1
+edge data values:7,0,1
+edge data values:8,0,1
+edge data values:9,0,18
+edge data values:10,0,21
+edge data values:11,0,20
+edge data values:13,0,38
+edge data values:15,0,9
+edge data values:17,0,1
+edge data values:18,0,1
+edge data values:19,0,30
+edge data values:20,0,22

@@ -1,0 +1,34 @@
+v:2.0a,Thu 08 Sep 2011 14:10:23 GMT-05:00
+graph:6,9,directed
+node:id=1,x=79,y=40
+node:id=2,x=83,y=184
+node:id=3,x=77,y=366
+node:id=5,x=508,y=37
+node:id=6,x=500,y=187
+node:id=7,x=502,y=357
+edge:id=1,e1=1,e2=5,lp=1,spline=true,x=225,y=41
+edge:id=2,e1=1,e2=6,lp=1,spline=true,x=226,y=91
+edge:id=3,e1=1,e2=7,lp=1,spline=true,x=188,y=130
+edge:id=6,e1=2,e2=5,lp=1,spline=true,x=346,y=97
+edge:id=7,e1=2,e2=6,lp=1,spline=true,x=226,y=186
+edge:id=8,e1=2,e2=7,lp=1,spline=true,x=341,y=294
+edge:id=11,e1=3,e2=5,lp=1,spline=true,x=203,y=271
+edge:id=12,e1=3,e2=6,lp=1,spline=true,x=247,y=299
+edge:id=13,e1=3,e2=7,lp=1,spline=false
+node data labels:2,Supply,i,Demand,i
+node data values:1,13,0
+node data values:2,15,0
+node data values:3,14,0
+node data values:5,-10,10
+node data values:6,-26,26
+node data values:7,-6,6
+edge data labels:2,distaance,i,Cap,i
+edge data values:1,4,100
+edge data values:2,14,100
+edge data values:3,17,100
+edge data values:6,12,100
+edge data values:7,4,100
+edge data values:8,11,100
+edge data values:11,15,100
+edge data values:12,11,100
+edge data values:13,3,100
